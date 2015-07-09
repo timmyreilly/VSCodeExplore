@@ -10,7 +10,7 @@ from flask.ext.socketio import SocketIO, emit, join_room, disconnect
 
 
 app = Flask(__name__)
-app.debug = True
+# app.debug = 
 app.config['SECRET_KEY'] = 'secret!'
 socketio = SocketIO(app)
 thread = None

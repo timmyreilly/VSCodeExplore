@@ -38,6 +38,8 @@ Ctrl + Shift + P = Everything!
 * Ctrl + 1/2/3 = switch between panes
 * Ctrl + w = close window
 * Alt + Up/Down = move line
+// * Ctrl + B = toggle sidebar
+* Ctrl + Shift + V = Toggle Mardown Preview 
 
 
 
