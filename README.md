@@ -66,6 +66,30 @@ How
 Intellisense for Rich Languages!
 Not just code compeletion, but helpful fuzzy search suggestions!
 
+Parameter Help!
+x.toExponential(???)
+
+Snippets!
+
+Cheat Sheet: http://docs.emmet.io/cheat-sheet/
+Create your own: File-> Preferences
+
+Here's a couple for fun: 
+a:link
+nav>ul>li
+
+And more!
+Goto Definition
+Goto Symbol
+Open Symbol by name
+Gutter Indicators for Git
+Peek
+Hover -> CSS rules
+Reference Information for C# -> Like VS
+Errors and Warnings
+
+Check out the whole list here: 
+https://code.visualstudio.com/Docs/editingevolved
 
 How does it work? 
 

@@ -16,6 +16,10 @@
                 socket.emit('my event', {data: 'I\'m connected!'});
             });
 
+            console.log('sweet');
+            var x = 2
+            x.toExponential(2);
+            console.log(x)
             
             socket.on('message', function(msg){
                 console.log(msg.time)
