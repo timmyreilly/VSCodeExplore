@@ -50,8 +50,8 @@ def main():
     consumer_secret = CONSUMER_SECRET
     auth1 = tweepy.auth.OAuthHandler(consumer_key, consumer_secret)
 
-    access_token = "ACCESS_TOKEN"
-    access_token_secret = "ACCESS_TOKEN_SECRET"
+    access_token = ACCESS_TOKEN_SECRET
+    access_token_secret = ACCESS_TOKEN_SECRET
     auth1.set_access_token(access_token, access_token_secret)
 
     print "Establishing stream...",
