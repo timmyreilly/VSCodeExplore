@@ -1,5 +1,4 @@
 #main.py
-#main.py
 
 from gevent import monkey
 monkey.patch_all()

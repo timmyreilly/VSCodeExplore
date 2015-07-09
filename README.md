@@ -28,18 +28,27 @@ What makes it cool?
 Ctrl + Shift + P = Everything! 
 
 
-**Shortcuts!**
+**Shortcuts! (Choice Few)**
 
 * Alt + Click = multi line edits!
 * Ctrl + F2 = Select all occurances of current selection!
 * Ctrl + K Ctrl + C = Add line Comment!
 * F12 = Go To Definition
+* Ctrl + \ = split editor
+* Ctrl + 1/2/3 = switch between panes
+* Ctrl + w = close window
+* Alt + Up/Down = move line
+
+
+
 
 [Customizable shortcuts!](https://code.visualstudio.com/Docs/customization)
 
 Customizable workspace settings!
 
 settings.json to make changes!
+
+File -> Preferences -> Keyboard Shortcuts
 
 
 What kind of projects can I create? 
