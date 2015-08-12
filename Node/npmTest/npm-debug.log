@@ -1,0 +1,75 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '@linclark/pkg' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 warn package.json npmTest@1.0.0 No README data
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ '@linclark/pkg', null ]
+8 verbose cache add name=undefined spec="@linclark/pkg" args=["@linclark/pkg",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: '@linclark/pkg',
+9 verbose parsed url   path: '@linclark/pkg',
+9 verbose parsed url   href: '@linclark/pkg' }
+10 verbose cache add name="" spec="linclark/pkg" args=["","linclark/pkg"]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'linclark/pkg',
+11 verbose parsed url   path: 'linclark/pkg',
+11 verbose parsed url   href: 'linclark/pkg' }
+12 silly lockFile d3fddcad-linclark-pkg linclark/pkg
+13 verbose lock linclark/pkg C:\Users\tireilly\AppData\Roaming\npm-cache\d3fddcad-linclark-pkg.lock
+14 info maybeGithub Attempting linclark/pkg from git://github.com/linclark/pkg
+15 silly lockFile 197f35eb-git-github-com-linclark-pkg git://github.com/linclark/pkg
+16 verbose lock git://github.com/linclark/pkg C:\Users\tireilly\AppData\Roaming\npm-cache\197f35eb-git-github-com-linclark-pkg.lock
+17 verbose addRemoteGit [ 'git://github.com/linclark/pkg', 'master' ]
+18 warn `git config --get remote.origin.url` returned wrong result (git://github.com/linclark/pkg) undefined
+18 warn `git config --get remote.origin.url` returned wrong result (git://github.com/linclark/pkg) undefined
+19 verbose git clone git://github.com/linclark/pkg undefined
+19 verbose git clone git://github.com/linclark/pkg undefined
+20 silly lockFile 197f35eb-git-github-com-linclark-pkg git://github.com/linclark/pkg
+21 silly lockFile 197f35eb-git-github-com-linclark-pkg git://github.com/linclark/pkg
+22 info maybeGithub Attempting linclark/pkg from git+ssh://git@github.com:linclark/pkg
+23 silly lockFile 37223368-git-github-com-linclark-pkg git@github.com:linclark/pkg
+24 verbose lock git@github.com:linclark/pkg C:\Users\tireilly\AppData\Roaming\npm-cache\37223368-git-github-com-linclark-pkg.lock
+25 verbose addRemoteGit [ 'git@github.com:linclark/pkg', 'master' ]
+26 warn `git config --get remote.origin.url` returned wrong result (git@github.com:linclark/pkg) undefined
+26 warn `git config --get remote.origin.url` returned wrong result (git@github.com:linclark/pkg) undefined
+27 error git clone git@github.com:linclark/pkg undefined
+27 error git clone git@github.com:linclark/pkg undefined
+28 silly lockFile 37223368-git-github-com-linclark-pkg git@github.com:linclark/pkg
+29 silly lockFile 37223368-git-github-com-linclark-pkg git@github.com:linclark/pkg
+30 silly lockFile d3fddcad-linclark-pkg linclark/pkg
+31 silly lockFile d3fddcad-linclark-pkg linclark/pkg
+32 error addLocal Could not install linclark/pkg
+33 error Error: ENOENT, stat 'C:\Users\tireilly\OneDrive\d\VSCodeExplore\Node\npmTest\linclark\pkg'
+34 error If you need help, you may report this *entire* log,
+34 error including the npm and node versions, at:
+34 error     <http://github.com/npm/npm/issues>
+35 error System Windows_NT 6.2.9200
+36 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "@linclark/pkg"
+37 error cwd C:\Users\tireilly\OneDrive\d\VSCodeExplore\Node\npmTest
+38 error node -v v0.10.36
+39 error npm -v 1.4.28
+40 error path C:\Users\tireilly\OneDrive\d\VSCodeExplore\Node\npmTest\linclark\pkg
+41 error code ENOENT
+42 error errno 34
+43 verbose exit [ 34, true ]

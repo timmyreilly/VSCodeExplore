@@ -1,0 +1,23 @@
+{
+  "name": "npmTest",
+  "version": "1.0.0",
+  "description": "Getting to know npm",
+  "main": "test.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/timmyreilly/VSCodeExplore"
+  },
+  "keywords": [
+    "Code"
+  ],
+  "author": "timmyreilly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timmyreilly/VSCodeExplore/issues"
+  },
+  "readme": "README.md",
+  "homepage": "https://github.com/timmyreilly/VSCodeExplore"
+}
