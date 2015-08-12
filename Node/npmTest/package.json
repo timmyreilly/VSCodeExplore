@@ -1,6 +1,6 @@
 {
   "name": "npmTest",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Getting to know npm",
   "main": "test.js",
   "scripts": {

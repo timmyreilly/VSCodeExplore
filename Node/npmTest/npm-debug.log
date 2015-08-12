@@ -2,74 +2,72 @@
 1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
 1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
 1 verbose cli   'install',
-1 verbose cli   '@linclark/pkg' ]
+1 verbose cli   'anything' ]
 2 info using npm@1.4.28
 3 info using node@v0.10.36
 4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
-5 warn package.json npmTest@1.0.0 No README data
-6 verbose readDependencies using package.json deps
-7 verbose cache add [ '@linclark/pkg', null ]
-8 verbose cache add name=undefined spec="@linclark/pkg" args=["@linclark/pkg",null]
-9 verbose parsed url { protocol: null,
-9 verbose parsed url   slashes: null,
-9 verbose parsed url   auth: null,
-9 verbose parsed url   host: null,
-9 verbose parsed url   port: null,
-9 verbose parsed url   hostname: null,
-9 verbose parsed url   hash: null,
-9 verbose parsed url   search: null,
-9 verbose parsed url   query: null,
-9 verbose parsed url   pathname: '@linclark/pkg',
-9 verbose parsed url   path: '@linclark/pkg',
-9 verbose parsed url   href: '@linclark/pkg' }
-10 verbose cache add name="" spec="linclark/pkg" args=["","linclark/pkg"]
-11 verbose parsed url { protocol: null,
-11 verbose parsed url   slashes: null,
-11 verbose parsed url   auth: null,
-11 verbose parsed url   host: null,
-11 verbose parsed url   port: null,
-11 verbose parsed url   hostname: null,
-11 verbose parsed url   hash: null,
-11 verbose parsed url   search: null,
-11 verbose parsed url   query: null,
-11 verbose parsed url   pathname: 'linclark/pkg',
-11 verbose parsed url   path: 'linclark/pkg',
-11 verbose parsed url   href: 'linclark/pkg' }
-12 silly lockFile d3fddcad-linclark-pkg linclark/pkg
-13 verbose lock linclark/pkg C:\Users\tireilly\AppData\Roaming\npm-cache\d3fddcad-linclark-pkg.lock
-14 info maybeGithub Attempting linclark/pkg from git://github.com/linclark/pkg
-15 silly lockFile 197f35eb-git-github-com-linclark-pkg git://github.com/linclark/pkg
-16 verbose lock git://github.com/linclark/pkg C:\Users\tireilly\AppData\Roaming\npm-cache\197f35eb-git-github-com-linclark-pkg.lock
-17 verbose addRemoteGit [ 'git://github.com/linclark/pkg', 'master' ]
-18 warn `git config --get remote.origin.url` returned wrong result (git://github.com/linclark/pkg) undefined
-18 warn `git config --get remote.origin.url` returned wrong result (git://github.com/linclark/pkg) undefined
-19 verbose git clone git://github.com/linclark/pkg undefined
-19 verbose git clone git://github.com/linclark/pkg undefined
-20 silly lockFile 197f35eb-git-github-com-linclark-pkg git://github.com/linclark/pkg
-21 silly lockFile 197f35eb-git-github-com-linclark-pkg git://github.com/linclark/pkg
-22 info maybeGithub Attempting linclark/pkg from git+ssh://git@github.com:linclark/pkg
-23 silly lockFile 37223368-git-github-com-linclark-pkg git@github.com:linclark/pkg
-24 verbose lock git@github.com:linclark/pkg C:\Users\tireilly\AppData\Roaming\npm-cache\37223368-git-github-com-linclark-pkg.lock
-25 verbose addRemoteGit [ 'git@github.com:linclark/pkg', 'master' ]
-26 warn `git config --get remote.origin.url` returned wrong result (git@github.com:linclark/pkg) undefined
-26 warn `git config --get remote.origin.url` returned wrong result (git@github.com:linclark/pkg) undefined
-27 error git clone git@github.com:linclark/pkg undefined
-27 error git clone git@github.com:linclark/pkg undefined
-28 silly lockFile 37223368-git-github-com-linclark-pkg git@github.com:linclark/pkg
-29 silly lockFile 37223368-git-github-com-linclark-pkg git@github.com:linclark/pkg
-30 silly lockFile d3fddcad-linclark-pkg linclark/pkg
-31 silly lockFile d3fddcad-linclark-pkg linclark/pkg
-32 error addLocal Could not install linclark/pkg
-33 error Error: ENOENT, stat 'C:\Users\tireilly\OneDrive\d\VSCodeExplore\Node\npmTest\linclark\pkg'
-34 error If you need help, you may report this *entire* log,
-34 error including the npm and node versions, at:
-34 error     <http://github.com/npm/npm/issues>
-35 error System Windows_NT 6.2.9200
-36 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "@linclark/pkg"
-37 error cwd C:\Users\tireilly\OneDrive\d\VSCodeExplore\Node\npmTest
-38 error node -v v0.10.36
-39 error npm -v 1.4.28
-40 error path C:\Users\tireilly\OneDrive\d\VSCodeExplore\Node\npmTest\linclark\pkg
-41 error code ENOENT
-42 error errno 34
-43 verbose exit [ 34, true ]
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'anything', null ]
+7 verbose cache add name=undefined spec="anything" args=["anything",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'anything',
+8 verbose parsed url   path: 'anything',
+8 verbose parsed url   href: 'anything' }
+9 silly lockFile 8867c88b-anything anything
+10 verbose lock anything C:\Users\tireilly\AppData\Roaming\npm-cache\8867c88b-anything.lock
+11 silly lockFile 8867c88b-anything anything
+12 silly lockFile 8867c88b-anything anything
+13 verbose addNamed [ 'anything', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile 7ab19a36-anything anything@
+16 verbose lock anything@ C:\Users\tireilly\AppData\Roaming\npm-cache\7ab19a36-anything.lock
+17 silly addNameRange { name: 'anything', range: '*', hasData: false }
+18 verbose request where is /anything
+19 verbose request registry http://localhost:15443/
+20 verbose request id c5e5d8321473783d
+21 verbose url raw /anything
+22 verbose url resolving [ 'http://localhost:15443/', './anything' ]
+23 verbose url resolved http://localhost:15443/anything
+24 verbose request where is http://localhost:15443/anything
+25 info trying registry request attempt 1 at 13:58:50
+26 http GET http://localhost:15443/anything
+27 http 404 http://localhost:15443/anything
+28 verbose headers { 'content-type': 'application/json',
+28 verbose headers   date: 'Wed, 12 Aug 2015 20:58:50 GMT',
+28 verbose headers   connection: 'keep-alive',
+28 verbose headers   'transfer-encoding': 'chunked' }
+29 silly registry.get cb [ 404,
+29 silly registry.get   { 'content-type': 'application/json',
+29 silly registry.get     date: 'Wed, 12 Aug 2015 20:58:50 GMT',
+29 silly registry.get     connection: 'keep-alive',
+29 silly registry.get     'transfer-encoding': 'chunked' } ]
+30 silly lockFile 7ab19a36-anything anything@
+31 silly lockFile 7ab19a36-anything anything@
+32 error Error: missing : anything
+32 error     at RegClient.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:308:14)
+32 error     at Request._callback (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:246:65)
+32 error     at Request.self.callback (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:236:22)
+32 error     at Request.emit (events.js:98:17)
+32 error     at Request.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:1142:14)
+32 error     at Request.emit (events.js:117:20)
+32 error     at IncomingMessage.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:1096:12)
+32 error     at IncomingMessage.emit (events.js:117:20)
+32 error     at _stream_readable.js:944:16
+32 error     at process._tickCallback (node.js:442:13)
+33 error If you need help, you may report this *entire* log,
+33 error including the npm and node versions, at:
+33 error     <http://github.com/npm/npm/issues>
+34 error System Windows_NT 6.2.9200
+35 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "anything"
+36 error cwd C:\Users\tireilly\OneDrive\d\VSCodeExplore\Node\npmTest
+37 error node -v v0.10.36
+38 error npm -v 1.4.28
+39 verbose exit [ 1, true ]
