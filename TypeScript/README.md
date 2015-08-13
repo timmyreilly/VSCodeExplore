@@ -1,4 +1,4 @@
-Let's learn about TypeScript!
+# Let's learn about TypeScript!
 
 First we go here: 
 http://www.typescriptlang.org/
@@ -22,4 +22,7 @@ Well this is kinda cool, it just converts JavaScript to JavaScript!
 
 Psyche, we're specifying types!
 
+Now go learn TypeScript!
+
+http://www.typescriptlang.org/Handbook
 
