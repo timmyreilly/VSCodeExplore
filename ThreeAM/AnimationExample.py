@@ -32,3 +32,4 @@ im_ani = animation.ArtistAnimation(fig2, ims, interval=50, repeat_delay=3000,
 #im_ani.save('im.mp4', metadata={'artist':'Guido'})
 
 plt.show()
+
